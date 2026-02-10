@@ -22,3 +22,7 @@ Você pode visualizar meu site no ar aqui:
 ## 📩 Contato
 Se desejar entrar em contato para oportunidades ou colaborações, utilize o formulário no site ou me encontre em:
 * **E-mail:** tfragamaia@gmail.com
+
+
+ ---
+*Este projeto foi criado com o apoio do Gemini (IA).*
