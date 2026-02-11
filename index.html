@@ -2,6 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LJZKBW1LC5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LJZKBW1LC5');
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Técnico de Help Desk</title>
     <style>
@@ -25,7 +33,7 @@
 </head>
 <body>
 
-<header style="background: url('header.jpg') no-repeat center center; background-size: cover; color: white; padding: 60px 20px; text-align: center; border-radius: 8px 8px 0 0;">
+<header style="background: url('header1.jpg') no-repeat center center; background-size: cover; color: white; padding: 60px 20px; text-align: center; border-radius: 8px 8px 0 0;">
     <h1 style="margin: 0; font-size: 2.8em; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Thomaz Ferreira Fraga Maia Costa</h1>
         <p style="font-size: 1.2em; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); max-width: 590px; margin: 10px auto;">
         Suporte de TI & Help Desk focado na resolução ágil de incidentes e atendimento proficiente ao usuário. Especialista em garantir a continuidade operacional através de diagnóstico preciso, manutenção de sistemas e suporte proativo (N1/N2), sempre comprometido com a eficiência técnica e a satisfação do usuário final.
@@ -36,9 +44,12 @@
     <h2>Meu Currículo</h2>
     <p>Visualize abaixo ou faça o download.</p>
     
-    <div class="btn-container">
-        <a href="Thomaz_Fraga_curriculo.pdf" download class="btn">📥 Baixar Currículo (PDF)</a>
-    </div>
+    <a href="Thomaz_Fraga_curriculo.pdf" 
+   download 
+   class="btn" 
+   onclick="gtag('event', 'download_curriculo', { 'event_category': 'Engagement', 'event_label': 'PDF Download' });">
+   📥 Baixar Currículo (PDF)
+</a>
 
     <div class="pdf-container">
         <embed src="Thomaz_Fraga_curriculo.pdf" type="application/pdf" width="100%" height="100%" />
@@ -65,4 +76,5 @@
 
 </body>
 </html>
+
 
